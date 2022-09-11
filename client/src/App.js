@@ -4,7 +4,7 @@ import Clients from './components/Clients';
 import Header from "./components/Header";
 
 const client = new ApolloClient({
-  url: process.env.REACT_APP_DEV_APOLLO_URL,
+  uri: process.env.REACT_APP_DEV_APOLLO_URI,
   cache: new InMemoryCache()
 })
 
