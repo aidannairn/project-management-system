@@ -38,6 +38,7 @@ code {
 
 .btn-secondary {
   background-color: #ffffff;
+  color: #000000;
 }
 
 .btn-secondary:hover {
